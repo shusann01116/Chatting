@@ -1,0 +1,7 @@
+type Message {
+  id: ID!
+  room: Room!
+  user: User!
+  createdAt: String!
+  content: String!
+}
